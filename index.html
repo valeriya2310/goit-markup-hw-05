@@ -386,10 +386,115 @@
                     
                 </ul> 
             </div>
+            <div class="footer-top">
+                <p class="footer-subtitle-text">Subscribe</p>
+                <label for="user-emall" class="footer-blok">E-mall</label> 
+                 <input 
+                 type="text" 
+                 name="user-emall" 
+                 id="user-emall"
+                 class="footer-input-emall">
+                 <button class="footer-btn" type="button">Subscribe</button>
+                  <svg class="footer-icon" width="24" height="20">
+                    <use href="./images/icons.svg#icon-icon-send-1"></use>
+                  </svg>
+
+            </div>
         </div>
-                </footer>
-            
-        
+         </footer>
+         <div class="backgrop">
+            <div class="modal">
+            <button type="button" class="modal-open">
+                <a class="modal-open-link" href="">
+                    <svg class="modal-open-btn" width="8" height="8">
+                        <use href="./images/icons.svg#icon-close-black-18dp-2-1-1"></use>
+                    </svg>
+                </a>
+            </button>
+            <p class="modal-title">Leave your Contacts and we will call you back</p>
+            <form class="modal-form">
+                <div class="modal-field">
+                    
+                <label for="user-name" class="modal-label">Name</label>
+                <div class="input-wrapper">
+                <input 
+                type="text"
+                name="user-name"
+                id="user-name"
+                class="modal-input"
+                placeholder=""
+                />
+                <svg class="modal-icon" width="12" height="12">
+                    <use href="./images/icons.svg#icon-Vector-3"></use>
+                </svg>
+            </div>
+            </div>
+            <div class="modal-field">
+                <label for="user-phone" class="modal-label">Phone</label>
+                <div class="input-wrapper">
+                <input
+                 type="text"
+                name="user-phone" 
+                id="user-phone"
+                class="modal-input"
+                placeholder=""
+                />
+                <svg class="modal-icon" width="13" height="13">
+                    <use href="./images/icons.svg#icon-Vector-1-1"></use>
+                </svg>
+            </div>
+            </div>
+                <div class="modal-field">
+                <label for="user-email" class="modal-label">email</label>
+                <div class="input-wrapper">
+                <input
+                 type="text"
+                name="user-email" 
+                id="user-email"
+                class="modal-input"
+                placeholder=""
+                />
+                <svg class="modal-icon" width="16" height="12">
+                    <use href="./images/icons.svg#icon-Vector-2-1"></use>
+                </svg>
+            </div>
+            <div class="modal-field">
+                <label for="user-comment" 
+                class="modal-label"
+                >Comment</label>
+                <textarea 
+                name="user-comment" 
+                id="user-comment" 
+                class="modal-textarea"
+                placeholder="Text input"
+                ></textarea>
+            </div>
+            <div class="modal-field">
+                <input type="checkbox" 
+                name="Policy" 
+                id="Policy"
+                class="modal-check visually-hidden"
+                value="true"
+                />
+                <label for="Policy"
+                 class="modal-check-text"
+                 ><span>
+                    <svg class="modal-check-icon" width="10" height="8">
+                        <use href="./images/icons.svg#icon-Vector-4-1"></use>
+                    </svg>
+
+                 </span> accept the terms and conditions of the Privacy Policy</label>
+
+            </div>
+                <button type="submit" class="submit-btn">Send</button>
+            </div>
+            </form>
+         </div>
+         </div>
+         <script>
+            const input = document.guerySelector("#user-email")
+            console.log(input);
+         </script>
 
 </body>
 </html>
