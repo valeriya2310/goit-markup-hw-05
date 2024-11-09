@@ -581,18 +581,7 @@ margin-bottom: 16px;
    
 }
 .footer-blok {
-    font-weight: 400;
-font-size: 12px;
-line-height: 2;
-letter-spacing: 0.04em;
-color: #fff;
-/*position: absolute;*/
-    top: 50%;
-    left: 50%;
-    transform: translate(+150%,+20%);
-    margin-left: 16px;
-    display: flex;
-    gap: 24px;
+ 
 }
 .footer-input-emall {
     font-size: 12px; 
@@ -666,7 +655,8 @@ color: #fff;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    padding: 40px; box-shadow: зі значенням 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    padding: 40px;
+    box-shadow:  0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     padding: 72px 24px 24px 24px; 
 }
